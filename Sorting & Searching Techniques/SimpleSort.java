@@ -1,8 +1,9 @@
 import java.util.*;
 
 class SimpleSort{
-    public static void Sort(int[] arr){
+    public static int[] Sort(int[] arr){
         Arrays.sort(arr);
+        return arr;
     }
 
     public static void main(String[] args){
